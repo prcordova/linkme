@@ -7,14 +7,25 @@ header {
     color: white;
     text-align: center;
 }
-section{
+.linkscontainer{
      background: white;
      border-radius: 10px;
-     padding: 15px;
-     width: 500px;
+     text-decoration: none;
+     height: 40px;
+     width: 600px;
      margin: auto;
      box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.473) ;
+     text-align: center;
+     margin-top: 8px;
+     transition-delay: 33ms;
 
+
+
+}
+.linkscontainer:hover{
+    transform: translateY(-5px);
+    transition-delay: 33ms;
+    width: 700px;
 
 }
 
